@@ -1,4 +1,4 @@
-# shoHer_API
+# shopHer_API
 
 ## Documentation
 ### `/users`
