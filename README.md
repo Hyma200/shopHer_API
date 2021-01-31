@@ -5,7 +5,7 @@
 Get: Gets all registered businesses in the app. Doesn't require authentication. Only allows for reading. 
 
 ### `/userNoAuth`
-Post: Searches for the queried business name argument in string username
+Post: Searches for the queried business name argument in string username.
 
 ### `/category`
 Post: Searches for all businesses that belong in a category. Input must be in format of json object named category.
@@ -14,7 +14,7 @@ Post: Searches for all businesses that belong in a category. Input must be in fo
 Post: Allows businesses to upload an image to their profile.
 
 ### `/userInfo`
-Post: User must be authenticated and have a token to use this function. Returns information about the business account associated with a user's token.
+Post: User must be authenticated and have a token to use this function. Returns information about the business account associated with a user's token, which must be put in the header.
 
 ### `/editProfile`
 Post: User must be logged in and have a valid token in the header. Allows users to edit their business profile.
